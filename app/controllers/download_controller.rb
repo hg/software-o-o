@@ -135,6 +135,10 @@ class DownloadController < ObsController
       'SL'
     when /^(DISCONTINUED:)?CentOS:CentOS-/
       'CentOS'
+    when /^(DISCONTINUED:)?AlmaLinux:/
+      'AlmaLinux'
+    when /^(DISCONTINUED:)?RockyLinux:/
+      'RockyLinux'
     when /^(DISCONTINUED:)?Mandriva:/
       'Mandriva'
     when /^(DISCONTINUED:)?Mageia:/
